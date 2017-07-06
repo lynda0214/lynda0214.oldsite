@@ -2,8 +2,8 @@
 
 // init Isotope
 var $grid = $('.grid').isotope({
-  itemSelector: '.element-item', 
-  layout: 'masonry'
+  itemSelector: '.element-item'//,
+  //layout: 'masonry'
 });
 
 // store filter for each group

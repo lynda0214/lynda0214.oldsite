@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>lyndA</title>
+		<meta name="description" content="Lynda's Portfolio" />
+		<meta name="keywords" content="Projects, Designs, Information" />
+		<meta name="author" content="Lynda Lin" />
+		<link rel="icon" type="image/png" href="img/lynda.png" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<!--div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Tutorials/ExpandingSearchBar/"><span>Previous Demo</span></a>
+				<span class="right"><a href="http://dribbble.com/erikamackley">Illustrations by by Erika Mackley</a><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15677"><span>Back to the Codrops Article</span></a></span>
+			</div-->
+			<header>
+				<a href="index.html"><img src="img/lynda.png" width="64" height="64" alt="" style="display:block; margin:auto;"/></a>
+				<h3>Lynda Lin (Lin Yung-Ta)<h3>
+        <h2><span>I'm from National Taiwan University Communications & Multimedia Lab (CMLab), <br>
+          where I'm interested in Human Computer Interactions (HCI), especially 360 interfaces. <br>
+          Besides research and programming, I'm also a big fan of art and design.</span>
+        </h2>
+        <div class="filter-button-group">
+          <nav class="button-group cl-effect-4">
+            <a href="index.html">Projects</a>
+            <a href="design.html" id="focusmeplease">Designs</a>
+            <a href="information.html">Information</a>
+          </nav>
+        </div>
+
+			</header>
+			<ul class="grid effect-2" id="grid">
+
+        <li>
+					<a href="#">
+						<img src="img/HoCuIn17.png">
+            <h3>HoCuIn '17 Workshop Visual Design</h3>
+						<p>HoCuIn: Hot! Cute! Interaction 2017 Workshop (HCI Workshop)</p>
+          </a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/IntoTheCity.png">
+            <h3>Into the City Performance Visual Design</h3>
+						<p>'17 NTU Muiscal Annual Performance: Into the City</p>
+          </a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/wayout.png">
+            <h3>WayOut Game Visual Design</h3>
+						<p>A Multi-Layer Panorama Mobile Game Using Around Body Interactions</p>
+						<h5><img src="img/trophy.svg" width="15px" height="15px" style="float:left">CHI '17 Student Game Competition [Runner Up]</h5>
+          </a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/allbento.png">
+						<h3>allBento UI/UX Design</h3>
+						<p>Web Platform for Group Meals Orderings</p>
+						<h5>14-16 Side Project with Classmates</h5>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/tapMusic.png">
+            <h3>TapMusic T-Shirt</h3>
+						<p>'16 NTU Tap Dance Club Uniform</p>
+          </a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/ntuaf.jpg">
+            <h3>NTU Art Festival《距離115.904123 AU》Stage Design</h3>
+						<p>An Immersive Theater in NTU Old Sports Center</p>
+						<h5>'15 Spring 21st NTUAF</h5>
+          </a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/yogee.png">
+						<h3>Yogee UI/UX Design</h3>
+						<p>An Android App that Makes Travel Diary Easy</p>
+						<h5>'15 Spring Software Design Pattern Final Project</h5>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/tapFone.png">
+						<h3>TapFone T-Shirt</h3>
+						<p>'15 NTU Tap Dance Club Uniform</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/tapMoment.png">
+						<h3>TapMoment Drawstring Bag</h3>
+						<p>'15 NTU Tap Dance Club Souvenir</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/trainseat.png">
+						<h3>TrainSeat UI/UX Design</h3>
+						<p>An Android App that Books Segmented Tickets</p>
+						<h5>'14 Fall Software Engineering Final Project</h5>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/iGem.png">
+						<h3>Yeastherm Game Visual Design</h3>
+						<p>Hidden Object Game</p>
+						<h5>'13 Fall iGEM (International Genetically Engineered Machine Competition)</h5>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/AnimOnScroll.js"></script>
+    <!--script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script-->
+		<script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+		</script>
+
+    <script>
+      document.getElementById('focusmeplease').focus();
+    </script>
+	</body>
+</html>
