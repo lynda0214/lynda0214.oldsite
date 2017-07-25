@@ -43,7 +43,7 @@ a:active {
 
 .container > header {
 	text-align: center;
-	background: rgba(0,0,0,0.01);
+	background: rgba(0,0,0,0.0);
 }
 
 .container > header h1 {
